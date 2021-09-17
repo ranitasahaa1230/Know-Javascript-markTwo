@@ -87,18 +87,18 @@ console.log(chalk.white.bgCyan.bold(`Your Final Score is : ${score}`));
 if(score>=5 && score<=8){
     level1=level+1;
     console.log(chalk.yellow("Congratulations, you moved to Level "+ level1 +""));
-    console.log(chalk.underline.bgMagenta.bold("You do know about Marvel Series fairly!🎉 "));
-    console.log(chalk.bgWhite.hex('#DEADED').bold(`-- Level ${level1} --`));
+    console.log(chalk.bgRed.bold("You do know about Marvel Series fairly!🎉 "));
+    console.log(chalk.underline.bgMagenta.bold(`-- Level ${level1} --`));
   }
   else if(score>=9 && score<=12) {
     level2=level+2;
     console.log(chalk.yellow("Congratulations, you moved to Level "+ level2 +"😍🎉"));   
-    console.log(chalk.underline.bgMagenta.bold("You are a expert at Marvel Series!🎉 "));
-    console.log(chalk.bgWhite.hex('#DEADED').bold(`-- Level ${level2} --`));
+    console.log(chalk.bgRed.bold("You are a expert at Marvel Series!🎉 "));
+    console.log(chalk.underline.bgMagenta.bold(`-- Level ${level2} --`));
 
   }else{
     console.log(chalk.yellow("OHH OHH!, you did not moved to Next Level. Better Luck Next Time!!😐"));
-    console.log(chalk.underline.bgMagenta.bold("You do not know about Marvel Series! :( "));
+    console.log(chalk.bgRed.bold("You do not know about Marvel Series! :( "));
   }
 
 
