@@ -1,2 +1,2 @@
-# Know-Javascript-markTwo
+# Know-Marvel-Series-markTwo
 neog markTwo
